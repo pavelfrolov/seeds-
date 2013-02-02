@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset='utf-8' />
+	<title>Семена на кодаке</title>
+		<meta name='description' content='' />
+	 <meta name='author' content='Kulta and Frolov' />
+	 <link rel='shortcut icon' href='/favicon.ico' />
+	 <link rel='stylesheet' type='text/css' href='reset.css'>
+	 <link rel='stylesheet' href='style.css' type='text/css' media='screen'/>
+	 <script type='text/javascript' src='js/jquery-1.5.2.min.js'></script>
+	 <script type='text/javascript' src='js/scriptbreaker-multiple-accordion-1.js'></script>
+	 <script language='JavaScript'>
+
+	 $(document).ready(function() {
+		 $('.leftnav').accordion({
+		 accordion:true,
+		 speed: 100,
+		 closedSign: '',
+		 openedSign: ''
+		 });
+	 });
+
+	 </script>
+
+
+	</head>
+	<body onload='initialize()'>
+
+
+	<!-- header + info box -->
+	<header>
+		<div class='wrapper'>
+		<div id='h_photo'>
+			<img src='image/nature-plants-wallpaper-life-pictures_mini.jpg'>
+				</div>
+
+			   <span id='info_box'>
+		   Семена овощных культур,
+		   цветов, газонных трав,
+		   комнатных растений,
+		   грунты, вазоны для цветов,
+		   керамика, удобрения,
+		   интсрументы
+		   <a href='index.html'><h1>«Семена на Кодаке»</h1></a>
+			   </span>
+	 </div>
+	</header>
+	<!-- end header + info box -->
+
+	<div class='wrapper'>
+		<div id='menu'>
+		<div id='search_contact'>
+			<a href='contacts_page.html'>Контакты</a>
+
+			<!-- search -->
+			<form name='searchform' action='index_submit' method='get'>
+			<input onblur='this.value=(this.value=='')?this.title:this.value;'
+			onfocus='this.value=(this.value==this.title)?'':this.value;'
+			value='Поиск'
+			title='Поиск'
+			type='text'>
+			</form>
+		</div>
+		<!-- end search -->
+
+		<!-- navigation category -->
+		<nav>
+			<ul class='leftnav'>
+			<li><a href='#'>Семена</a>
+				<ul>
+				<li><a href='#'>Овощи</a>
+					<ul class='cat_three'>
+					<li><a href='#'>Огурцы</a></li>
+					</ul>
+				</li>
+				<li><a href='#'>Цвеnы</a></li>
+				<li><a href='#'>Пункт 3</a></li>
+				<li><a href='#'>Пункт 4</a></li>
+				<li><a href='#'>Пункт 5</a></li>
+				<li><a href='#'>Пункт 6</a></li>
+				</ul>
+			</li>
+
+			<li ><a href='#'>Категория 2</a>
+				<ul>
+				<li><a href='#'>Пункт 1</a></li>
+				<li><a href='#'>Пункт 2</a></li>
+				<li><a href='#'>Пункт 3</a></li>
+				<li><a href='#'>Пункт 4</a></li>
+				<li><a href='#'>Пункт 5</a></li>
+				<li><a href='#'>Пункт 6</a></li>
+				</ul>
+			</li>
+
+			<li ><a href='#'>Категория 3</a>
+				<ul>
+				<li><a href='#'>Пункт 1</a></li>
+				<li><a href='#'>Пункт 2</a></li>
+				<li><a href='#'>Пункт 3</a></li>
+				<li><a href='#'>Пункт 4</a></li>
+				<li><a href='#'>Пункт 5</a></li>
+				<li><a href='#'>Пункт 6</a></li>
+				</ul>
+			</li>
+
+			<li ><a href='#'>Категория 4</a>
+				<ul>
+				<li><a href='#'>Пункт 1</a></li>
+				<li><a href='#'>Пункт 2</a></li>
+				<li><a href='#'>Пункт 3</a></li>
+				<li><a href='#'>Пункт 4</a></li>
+				<li><a href='#'>Пункт 5</a></li>
+				<li><a href='#'>Пункт 6</a></li>
+				</ul>
+			</li>
+
+			<li ><a href='#'>Категория 5</a>
+				<ul>
+				<li><a href='#'>Пункт 1</a></li>
+				<li><a href='#'>Пункт 2</a></li>
+				<li><a href='#'>Пункт 3</a></li>
+				<li><a href='#'>Пункт 4</a></li>
+				<li><a href='#'>Пункт 5</a></li>
+				<li><a href='#'>Пункт 6</a></li>
+				</ul>
+			</li>
+			<li ><a href='#'>Категория 6</a>
+				<ul>
+				<li><a href='#'>Пункт 1</a></li>
+				<li><a href='#'>Пункт 2</a></li>
+				<li><a href='#'>Пункт 3</a></li>
+				<li><a href='#'>Пункт 4</a></li>
+				<li><a href='#'>Пункт 5</a></li>
+				<li><a href='#'>Пункт 6</a></li>
+				</ul>
+			</li>
+			<li ><a href='#'>Категория 7</a>
+				<ul>
+				<li><a href='#'>Пункт 1</a></li>
+				<li><a href='#'>Пункт 2</a></li>
+				<li><a href='#'>Пункт 3</a></li>
+				<li><a href='#'>Пункт 4</a></li>
+				<li><a href='#'>Пункт 5</a></li>
+				<li><a href='#'>Пункт 6</a></li>
+				</ul>
+			</li>
+			</ul>
+		</nav>
+		</div>
+		<!-- end navigation category -->
+
+		<div id='cat_name'>
+		<h4>Огурцы</h4>
+		</div>
+
+
+		<!-- items table -->
+		<div id='items_tab'>
+		<figure>
+			<mark>3.45гр</mark>
+		<a href='' title=''>
+			<img src='image/ogurec-mashaF1.jpg'></a>
+			<figcaption>
+				<h3>Огурец Маша F1</h3>
+			</figcaption>	
+			
+		</figure>	
+		<figure>			
+			<mark>3.45гр</mark>	
+		 	<a href=''><img src='image/ogurec-mas-s-palF1.jpg'></a>
+			<figcaption>
+				<h3>Мальчик с Пальчик F1</h3>
+			</figcaption>
+		</figure>
+		<figure>			
+			<mark>3.45гр</mark>
+		 	<a href=''><img src='image/ogurec-mas-s-palF1.jpg'></a>
+			<figcaption>
+				<h3>Огурец Мальчик с Пальчик F1</h3>
+			</figcaption>	
+		</figure>
+		<figure>			
+			<mark>3.45гр</mark>	
+		 	<a href=''><img src='image/ogurec-mas-s-palF1.jpg'></a>
+			<figcaption>
+				<h3>Огурец Мальчик с Пальчик F1</h3>
+			</figcaption>
+		</figure>
+		<figure>			
+			<mark>3.45гр</mark>	
+		 	<a href=''><img src='image/ogurec-mas-s-palF1.jpg'></a>
+			<figcaption>
+				<h3>Огурец Мальчик с Пальчик F1</h3>
+			</figcaption>
+		</figure>
+		<figure>			
+			<mark>3.45гр</mark>	
+		 	<a href=''><img src='image/ogurec-mas-s-palF1.jpg'></a>
+			<figcaption>
+				<h3>Огурец Мальчик с Пальчик F1</h3>
+			</figcaption>
+		</figure>
+		<figure>			
+			<mark>3.45гр</mark>
+		 	<a href=''><img src='image/ogurec-mas-s-palF1.jpg'></a>
+			<figcaption>
+				<h3>Огурец Мальчик с Пальчик F1</h3>
+			</figcaption>	
+		</figure>
+		<figure>			
+			<mark>3.45гр</mark>
+		 	<a href=''><img src='image/ogurec-mas-s-palF1.jpg'></a>
+			<figcaption>
+				<h3>Огурец Мальчик с Пальчик F1</h3>
+			</figcaption>	
+		</figure>
+		<figure>			
+			<mark>3.45гр</mark>
+		 	<a href=''><img src='image/ogurec-mas-s-palF1.jpg'></a>
+			<figcaption>
+				<h3>Огурец Мальчик с Пальчик F1</h3>
+			</figcaption>	
+		</figure>
+
+			  <!-- end items table -->
+		</div>
+   </div>
+    <!-- page number -->
+			   <div id='pagenamber'>
+			   	<div>
+				   <a href=''>1</a>
+				   <a href=''>2</a>
+				   <a href=''>3</a>
+				   <a href=''>4</a>
+				   <a href=''>5</a>
+				   <a href=''>6</a>
+				   <a href=''>7</a>
+				   <a href=''>8</a>
+				   <a href=''>9</a>
+				   <a href=''>10</a>
+				  <a href=''>></a>
+				</div>
+			   </div>
+			   <!-- end page number -->
+		 <!-- footer -->
+		<div id='linefooter'></div>
+		<footer>
+			<div>
+			 <p>О цене и наличии товара узнавайте по телефону | <a href='contacts_page.html'>Контакты</a><br></p>
+			</div>
+		</footer>
+		 <!-- end footer -->
+	</body>
+</html>

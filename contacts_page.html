@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>Семена на кодаке|Контакты</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Kulta and Frolov" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+      function initialize() {
+        var myLatlng = new google.maps.LatLng(48.418377032882645,35.061860382556915);
+        var mapOptions = {
+          zoom: 15,
+          center: myLatlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Some Text'
+        });
+      }
+    </script>
+
+
+	</head>
+	<body onload="initialize()">
+
+
+		<!-- header + info box -->
+		<header>
+			<div class="wrapper">
+				<div id="h_photo">
+					<img src="image/nature-plants-wallpaper-life-pictures_mini.jpg">
+				 </div>
+
+				<span id="info_box">
+						Семена овощных культур,
+						цветов, газонных трав,
+						комнатных растений, 
+						грунты, вазоны для цветов, 
+						керамика, удобрения, 
+						интсрументы
+					<a href="index.html"><h1>«Семена на Кодаке»</h1></a>
+				</span>
+				</div>
+		</header>
+		<!-- end header + info box -->
+
+	<div class="wrapper">
+		<div id="menu">
+			<div id="search_contact">
+			<a href="contacts_page.html">Контакты</a>
+
+			<!-- search -->
+			<form name="searchform" action="index_submit" method="get">
+			<input onblur="this.value=(this.value=='')?this.title:this.value;"
+ 			onfocus="this.value=(this.value==this.title)?'':this.value;"
+		 	value="Поиск"
+ 			title="Поиск"
+ 			type="text">
+			</form>
+			</div>
+			<!-- end search -->
+		</div>	
+		<div id="contact_info">
+			<div id="adress"> 
+			<h1>«Семена на Кодаке»</h1>
+			<p>
+				г.Днепропетровск<br>
+				пр. Героев<br>
+				Рынок «Кодак»
+			</p>
+			</div>
+			<div id="name_tel">
+			<p>Шаронова Татьяна Владимировна<br>
+				Дворецкий Вадим Анатольевич</p>
+				
+				<p>тел. 373 73 53<br>
+				8 097 922 50 85<br>
+				8 097 914 03 83
+			</p>
+		    </div>
+		</div>	
+		<div id="map_canvas">
+		</div>			
+	</div>
+			<!-- footer -->
+			<div id="linefooter">
+			</div>
+			<footer>
+				<div>
+					<p>О цене и наличии товара узнавайте по телефону | <a href="contacts_page.html">Контакты</a><br>
+					</p>
+				</div>
+			</footer> 
+			<!-- end footer -->
+	</body>
+</html>
